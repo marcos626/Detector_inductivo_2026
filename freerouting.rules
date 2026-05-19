@@ -1,0 +1,74 @@
+
+(rules PCB freerouting.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (rule
+    (width 600.0)
+    (clearance 200.0)
+    (clearance 300.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+    (clearance 200.0 (type potencia,Default))
+  )
+  (padstack "Via[0-1]_1800:1000_um"
+    (shape
+      (circle F.Cu 1800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1800:1000_um" "Via[0-1]_1800:1000_um" default
+  )
+  (via 
+    "Via[0-1]_1800:1000_um-kicad_default" "Via[0-1]_1800:1000_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1800:1000_um-potencia,Default" "Via[0-1]_1800:1000_um" potencia,Default
+  )
+  (via_rule
+    default "Via[0-1]_1800:1000_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1800:1000_um-kicad_default"
+  )
+  (via_rule
+    potencia,Default "Via[0-1]_1800:1000_um-potencia,Default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(Q1-C)" GND "Net-(Q4-B)" "Net-(AE2-A)" "Net-(Q2-C)" "Net-(Q2-B)" "Net-(Q4-C)" "Net-(BZ1-+)"
+    "Net-(LED1-K)" "Net-(Q3-B)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class potencia,Default
+    /9V
+    (clearance_class potencia,Default)
+    (via_rule potencia,Default)
+    (rule
+      (width 800.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
