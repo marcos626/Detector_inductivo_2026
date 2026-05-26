@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Resistencias") (type "KiCad") (uri "${KIPRJMOD}/Resistencias.pretty") (options "") (descr ""))
+	(lib (name "Conector_sma") (type "KiCad") (uri "${KIPRJMOD}/Conector_sma.pretty") (options "") (descr ""))
+)

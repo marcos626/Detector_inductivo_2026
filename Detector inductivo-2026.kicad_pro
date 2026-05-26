@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|39500000|76500000|c52b33b2-0026-4d18-ad82-242df2140bc4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|88880000|86500000|45e1a708-f9fd-48c1-8c3d-d02b9cce95bd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|53460000|82460000|c52b33b2-0026-4d18-ad82-242df2140bc4|5b2b75c3-9573-4258-8786-21134bc8caab|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|58540000|82460000|c52b33b2-0026-4d18-ad82-242df2140bc4|027cfccb-f431-4bc7-9fb3-a5821e144be9|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },

@@ -3749,7 +3749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistencias:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 136.144 112.776 90)
 			(hide yes)
 			(show_name no)
@@ -3911,7 +3911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistencias:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 180.594 115.316 90)
 			(hide yes)
 			(show_name no)
@@ -4309,7 +4309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistencias:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 173.736 109.474 90)
 			(hide yes)
 			(show_name no)
@@ -4467,7 +4467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical"
+		(property "Footprint" "Conector_sma:SMA_Amphenol_132134-11_Vertical"
 			(at 101.6 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4549,7 +4549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistencias:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 143.256 108.204 90)
 			(hide yes)
 			(show_name no)
@@ -4786,7 +4786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistencias:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 156.464 120.396 90)
 			(hide yes)
 			(show_name no)
